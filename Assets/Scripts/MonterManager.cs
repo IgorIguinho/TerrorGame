@@ -32,7 +32,7 @@ public class MonterManager : MonoBehaviour
             endGameScreenObj.SetActive(true);
             playerObj.GetComponent<CharacterController>().enabled = false;
             Cursor.lockState = CursorLockMode.None;
-            Destroy(this.gameObject, 1);
+            Destroy(this.gameObject);
         }
     }
 
